@@ -18,7 +18,7 @@ public class SettingsHandler : MonoBehaviour
         }
         else
         {
-            PlayerPrefs.SetInt("SFXVolume", 100);
+            PlayerPrefs.SetInt("SFXVolume", -10);
         }
 
         if (PlayerPrefs.HasKey("MusicVolume"))
@@ -27,7 +27,7 @@ public class SettingsHandler : MonoBehaviour
         }
         else
         {
-            PlayerPrefs.SetInt("MusicVolume", 100);
+            PlayerPrefs.SetInt("MusicVolume", -10);
         }
         PlayerPrefs.Save();
     }
