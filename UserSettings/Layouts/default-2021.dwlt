@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 66423
+  controlID: 3977
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 66424
+  controlID: 3978
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 66425
+  controlID: 3979
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -402,9 +402,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 680a0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7c50fcff4680fcffc680fcffe480fcffec80fcfff480fcff4e82fcffce82fcffd084fcffde84fcffe684fcffc41efdff3a22fdffca22fdffcc24fdffd424fdffe224fdff0aa1fdff92a2fdff66c5fdff8ccffdff965cfeff6063feffee63feffb865feff3866feff5666feff5e66feff6666feff2868feffaa68feffc868feffd068feffd868feffd66afeff566bfeff746bfeff7c6bfeff846bfeffde71feff5e72feff7c72feff8472feff8c72feffda73feff5a74feff5c76feff6476feff7276feff9e7ffeffaa7ffeff6881feffbc8afeff388bfeff6a97feff1e98feffd499feff4ca6feff4ea6feff18b5feffa6b5feff8ed5feff0cd6feff2cd6feff34d6feff3cd6feff58d8feffd8d8feffdcdafeffe8dafefff0dafeffde09ffff3211ffff0035ffff903fffff0840ffff8640ffffe443ffff7046ffffee46ffffca58ffff4470ffff8e7fffff2480ffffd480ffff6281ffffec81ffffd288ffff8e94ffffc696ffff68acffffe8b0ffff9cc7ffffa4c7ffffe6c7ffffe6cbffffaeccffff18d8ffff28fbffffea8e000048980000f09b000028a00000a6a30000c0a30000eea3000034af000068bd00005cc2000042df0000c0e10000d2e90000d8e90000f8e900000eea000034ea000048ea0000d2f300007efd0000681501006c15010082150100ec3f0100e64d0100167901005ea50100
+      m_ExpandedIDs: 7460fffff460ffff1261ffff1a61ffff2261ffffe863ffff6864ffff6a66ffff7266ffff8066ffffdcceffff00ebfffffef0ffff2ef7ffffaef7ffff28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -420,7 +420,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 9}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -675,9 +675,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 570.7784, y: 263.00146, z: -4.5122557}
+    m_Target: {x: 542.3182, y: 253.20845, z: -0.24480811}
     speed: 2
-    m_Value: {x: 570.7784, y: 263.00146, z: -4.5122557}
+    m_Value: {x: 542.3182, y: 253.20845, z: -0.24480811}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -728,9 +728,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 331.82022
+    m_Target: 21.471401
     speed: 2
-    m_Value: 331.82022
+    m_Value: 21.471401
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -796,22 +796,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Liams\BongoCat Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 426d0000
-    m_LastClickedID: 27970
-    m_ExpandedIDs: 00000000b06b000000ca9a3b
+    m_SelectedIDs: 4e6e0000
+    m_LastClickedID: 28238
+    m_ExpandedIDs: 000000004e6e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -839,7 +839,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b06b000000ca9a3b
+    m_ExpandedIDs: 000000004e6e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -867,7 +867,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
