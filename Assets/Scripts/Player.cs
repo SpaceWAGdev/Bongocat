@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     public bool Hitting = false;
     [SerializeField] GameObject FX;
     [SerializeField] AudioSystem audioManager;
+    [SerializeField] EnemySpawner spawner;
 
     void Start()
     {
@@ -26,19 +27,45 @@ public class Player : MonoBehaviour
         DownSprite.SetActive(false);
     }
 
-    void Update()
+    void LateUpdate()
     {
         if (Input.anyKey)
         {
             StartCoroutine(DelayedBongoAnimation(AnimationDelay));
-            //foreach (GameObject obj in GameObject.FindGameObjectsWithTag("Targetable"))
-            //{
-            //    if (obj.transform.position.x > MIN_HITTABLE && obj.transform.position.x < MAX_HITTABLE)
-            //    {
-            //        obj.GetComponent<ITargetable>().Hit();
-            //    }
-            //}
+#nullable enable
+            GameObject? hitObject = spawner.Hit();
+#nullable disable
+
+            if (hitObject != null)
+            {
+                string tag = hitObject.tag;
+                if (tag == "Enemy")
+                {
+                    TakeDamage(1);
+                }
+                else if (tag == "Target")
+                {
+                    OnTargetDestroyed();
+                }
+                else
+                {
+                    throw new System.Exception($"Gameobject {hitObject}.tag doesn't match the implemented hittable types");
+                }
+                Destroy(hitObject);
+            }
         }
+
+        // For spawner before Commit 6e6f294
+        // string res = spawner.HitTarget();
+        // if (res == "Enemy")
+        // {
+        //     TakeDamage(1);
+        // }
+        // else if(res == "Target")
+        // {
+        //     OnTargetDestroyed();
+        // }
+
         UIScore.text = Score.ToString();
         UIHealth.text = currentHealth.ToString();
     }
@@ -70,7 +97,7 @@ public class Player : MonoBehaviour
     public void OnTargetDestroyed()
     {
         Score += 10;
-        if(Score % 100 == 0)
+        if (Score % 100 == 0)
         {
             audioManager.PlaySuccessSound();
         }
@@ -86,7 +113,7 @@ public class Player : MonoBehaviour
     public void RemoveScore(int amount)
     {
         Score -= amount;
-        if(Score <= 0)
+        if (Score <= 0)
         {
             GameOver();
         }
