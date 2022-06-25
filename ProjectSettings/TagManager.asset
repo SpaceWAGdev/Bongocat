@@ -9,6 +9,8 @@ TagManager:
   - MusicVolume
   - SFXVolume
   - AudioSystem
+  - Enemy
+  - Target
   layers:
   - Default
   - TransparentFX

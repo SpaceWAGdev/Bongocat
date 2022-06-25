@@ -18,7 +18,7 @@ public class SettingsHandler : MonoBehaviour
         }
         else
         {
-            PlayerPrefs.SetInt("SFXVolume", 100);
+            PlayerPrefs.SetInt("SFXVolume", -10);
         }
 
         if (PlayerPrefs.HasKey("MusicVolume"))
@@ -27,7 +27,7 @@ public class SettingsHandler : MonoBehaviour
         }
         else
         {
-            PlayerPrefs.SetInt("MusicVolume", 100);
+            PlayerPrefs.SetInt("MusicVolume", -10);
         }
         PlayerPrefs.Save();
     }
@@ -57,5 +57,13 @@ public class SettingsHandler : MonoBehaviour
         mixer.SetFloat("MusicVolume", GameObject.FindGameObjectWithTag("MusicVolume").GetComponent<Slider>().value);
         PlayerPrefs.SetInt("MusicVolume", (int)GameObject.FindGameObjectWithTag("MusicVolume").GetComponent<Slider>().value);
         PlayerPrefs.Save();
+    }
+
+    public void OpenNewAnonIssue(){
+        Application.OpenURL("https://forms.gle/Gb7PxMNAXsAdPye3A");
+    }
+
+    public void OpenGithubIssue(){
+        Application.OpenURL("https://github.com/SpaceWAGdev/Bongocat/issues/new");
     }
 }

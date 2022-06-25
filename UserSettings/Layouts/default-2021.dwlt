@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 66423
+  controlID: 52
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 66424
+  controlID: 53
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 66425
+  controlID: 54
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -217,12 +217,12 @@ MonoBehaviour:
     height: 531
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.DeviceSimulation.SimulatorWindow
   m_SerializedViewValues:
-  - C:\Users\Liams\BongoCat Game\Library\PlayModeViewStates\10b584ec9bf095d43807e9899f484950
+  - C:\Users\Liams\BongoCat Game\Library\PlayModeViewStates\b6cb88bc6a23aa24f8c42678e91d5c18
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -317,12 +317,12 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 1
+  m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 00000000000000000000000006000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
@@ -402,9 +402,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 680a0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7c50fcff4680fcffc680fcffe480fcffec80fcfff480fcff4e82fcffce82fcffd084fcffde84fcffe684fcffc41efdff3a22fdffca22fdffcc24fdffd424fdffe224fdff0aa1fdff92a2fdff66c5fdff8ccffdff965cfeff6063feffee63feffb865feff3866feff5666feff5e66feff6666feff2868feffaa68feffc868feffd068feffd868feffd66afeff566bfeff746bfeff7c6bfeff846bfeffde71feff5e72feff7c72feff8472feff8c72feffda73feff5a74feff5c76feff6476feff7276feff9e7ffeffaa7ffeff6881feffbc8afeff388bfeff6a97feff1e98feffd499feff4ca6feff4ea6feff18b5feffa6b5feff8ed5feff0cd6feff2cd6feff34d6feff3cd6feff58d8feffd8d8feffdcdafeffe8dafefff0dafeffde09ffff3211ffff0035ffff903fffff0840ffff8640ffffe443ffff7046ffffee46ffffca58ffff4470ffff8e7fffff2480ffffd480ffff6281ffffec81ffffd288ffff8e94ffffc696ffff68acffffe8b0ffff9cc7ffffa4c7ffffe6c7ffffe6cbffffaeccffff18d8ffff28fbffffea8e000048980000f09b000028a00000a6a30000c0a30000eea3000034af000068bd00005cc2000042df0000c0e10000d2e90000d8e90000f8e900000eea000034ea000048ea0000d2f300007efd0000681501006c15010082150100ec3f0100e64d0100167901005ea50100
+      m_ExpandedIDs: 3ce9fdffcce9fdffcaebfdffd2ebfdffe0ebfdff3af0fdffcaf0fdffe8f0fdfff0f0fdfff8f0fdffaef3fdff3ef4fdff5cf4fdff64f4fdff6cf4fdffecf7fdff7cf8fdff9af8fdffa2f8fdffaaf8fdff94fafdff24fbfdff22fdfdff2afdfdff38fdfdff5e2afeffdc2afeffda2cfeffe42cfefff22cfeff2637feffa637feffa439feffae39feffbc39feff604cffff28fbffff6a6b0000e66b0000f4fd0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -563,7 +563,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Camera
+      id: Scene View/Cloth Constraints
       index: 1
       layout: 4
     - dockPosition: 1
@@ -574,7 +574,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Cloth Constraints
+      id: Scene View/Cloth Collisions
       index: 2
       layout: 4
     - dockPosition: 1
@@ -585,7 +585,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Cloth Collisions
+      id: Scene View/Navmesh Display
       index: 3
       layout: 4
     - dockPosition: 1
@@ -596,7 +596,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Navmesh Display
+      id: Scene View/Agent Display
       index: 4
       layout: 4
     - dockPosition: 1
@@ -607,7 +607,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Agent Display
+      id: Scene View/Obstacle Display
       index: 5
       layout: 4
     - dockPosition: 1
@@ -618,7 +618,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Obstacle Display
+      id: Scene View/Occlusion Culling
       index: 6
       layout: 4
     - dockPosition: 1
@@ -629,7 +629,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Occlusion Culling
+      id: Scene View/Physics Debugger
       index: 7
       layout: 4
     - dockPosition: 1
@@ -640,7 +640,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Physics Debugger
+      id: Scene View/Scene Visibility
       index: 8
       layout: 4
     - dockPosition: 1
@@ -651,7 +651,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Scene Visibility
+      id: Scene View/Particles
       index: 9
       layout: 4
     - dockPosition: 1
@@ -659,10 +659,10 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: -192, y: -125}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Particles
+      snapCorner: 3
+      id: Scene View/Camera
       index: 10
       layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -675,9 +675,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 570.7784, y: 263.00146, z: -4.5122557}
+    m_Target: {x: 576.8626, y: 276.7908, z: -1.7973118}
     speed: 2
-    m_Value: {x: 570.7784, y: 263.00146, z: -4.5122557}
+    m_Value: {x: 576.8626, y: 276.7908, z: -1.7973118}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -728,9 +728,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 331.82022
+    m_Target: 336.15045
     speed: 2
-    m_Value: 331.82022
+    m_Value: 336.15045
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -796,22 +796,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Liams\BongoCat Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 426d0000
-    m_LastClickedID: 27970
-    m_ExpandedIDs: 00000000b06b000000ca9a3b
+    m_SelectedIDs: 346e0000
+    m_LastClickedID: 28212
+    m_ExpandedIDs: 00000000346e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -839,7 +839,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b06b000000ca9a3b
+    m_ExpandedIDs: 00000000346e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -866,8 +866,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -954,7 +954,7 @@ MonoBehaviour:
   m_MixersTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
-    m_LastClickedID: -31082
+    m_LastClickedID: 27700
     m_ExpandedIDs: 12eb343c
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1070,7 +1070,7 @@ MonoBehaviour:
       oldMaxSizes: 
       oldSplitSize: 0
     m_HorizontalSplitter:
-      ID: 47238
+      ID: 228
       splitterInitialOffset: 0
       currentActiveSplitter: -1
       realSizes:
