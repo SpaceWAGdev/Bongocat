@@ -55,7 +55,7 @@ public class EnemySpawner : MonoBehaviour
         {
             if (!obj) { continue; }
             obj.transform.position += obj.transform.TransformDirection(Vector2.right * deltaVel * Time.deltaTime * 10);
-            if (obj.transform.position.x > 5f)
+            if (obj.transform.position.x > 5.8f)
             {
                 if(obj.transform.CompareTag("Target")){
                     player.RemoveScore(10);

@@ -58,4 +58,12 @@ public class SettingsHandler : MonoBehaviour
         PlayerPrefs.SetInt("MusicVolume", (int)GameObject.FindGameObjectWithTag("MusicVolume").GetComponent<Slider>().value);
         PlayerPrefs.Save();
     }
+
+    public void OpenNewAnonIssue(){
+        Application.OpenURL("https://forms.gle/Gb7PxMNAXsAdPye3A");
+    }
+
+    public void OpenGithubIssue(){
+        Application.OpenURL("https://github.com/SpaceWAGdev/Bongocat/issues/new");
+    }
 }
